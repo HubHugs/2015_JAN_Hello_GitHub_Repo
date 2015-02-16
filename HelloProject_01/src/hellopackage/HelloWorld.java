@@ -9,7 +9,7 @@ public class HelloWorld {
 	}
 	
 	public void mrSpyriusMessage() {
-		String message = "Why, hello there!";
+		String message = "My new hello message!";
 		System.out.println(name + " says: " + message);
 	}
 
