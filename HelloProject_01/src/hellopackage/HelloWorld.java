@@ -8,14 +8,21 @@ public class HelloWorld {
 		this.name = name;
 	}
 	
-	public void mrSpyriusMessage() {
-		String message = "Big 'ol shucks, howdy!";
-		System.out.println(name + " says: " + message);
+	// I commented out the function below
+	
+//	public void mrSpyriusMessage() {
+//		String message = "Big 'ol shucks, howdy!";
+//		System.out.println(name + " says: " + message);
+//	}
+	
+	// The following function has no use.
+	public void myUselessFunction() {
+		System.out.println("This function is useless!");
 	}
 
 	public static void main(String[] args) {
 		HelloWorld hw = new HelloWorld("Mr. Spyrius");
-		hw.mrSpyriusMessage();
+//		hw.mrSpyriusMessage();
 	}
 
 }
